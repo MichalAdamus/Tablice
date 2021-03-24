@@ -1,0 +1,96 @@
+class OneDimensionArray{
+    public static void main(String args[]){
+        // deklaracja i alokacja
+        char[] ZipCode = new char[5];
+        char[] ZipCode1 = new char[5];
+        char[] ZipCode2 = new char[5];
+        char[] ZipCode3 = new char[5];
+        char[] ZipCode4 = new char[5];
+        char[] ZipCode5 = new char[5];
+        char[] ZipCode6 = new char[6];
+
+        // inicjalizacja
+        ZipCode[0] = '7';
+        ZipCode[1] = '2';
+        ZipCode[2] = '6';
+        ZipCode[3] = '0';
+        ZipCode[4] = '0';
+        ZipCode1[0] = '7';
+        ZipCode1[1] = '2';
+        ZipCode1[2] = '6';
+        ZipCode1[3] = '0';
+        ZipCode1[4] = '1';
+        ZipCode2[0] = '7';
+        ZipCode2[1] = '2';
+        ZipCode2[2] = '6';
+        ZipCode2[3] = '0';
+        ZipCode2[4] = '2';
+        ZipCode3[0] = '7';
+        ZipCode3[1] = '2';
+        ZipCode3[2] = '6';
+        ZipCode3[3] = '0';
+        ZipCode3[4] = '3';
+        ZipCode4[0] = '7';
+        ZipCode4[1] = '2';
+        ZipCode4[2] = '6';
+        ZipCode4[3] = '0';
+        ZipCode4[4] = '4';
+        ZipCode5[0] = '7';
+        ZipCode5[1] = '2';
+        ZipCode5[2] = '6';
+        ZipCode5[3] = '0';
+        ZipCode5[4] = '5';
+        ZipCode6[0] = '7';
+        ZipCode6[1] = '2';
+        ZipCode6[2] = '-';
+        ZipCode6[3] = '6';
+        ZipCode6[4] = '0';
+        ZipCode6[5] = '6';
+
+        System.out.println("-------------------------");
+        System.out.print(ZipCode[0]);
+        System.out.print(ZipCode[1]);
+        System.out.print(ZipCode[2]);
+        System.out.print(ZipCode[3]);
+        System.out.print(ZipCode[4]);
+        System.out.println();
+        System.out.print(ZipCode1[0]);
+        System.out.print(ZipCode1[1]);
+        System.out.print(ZipCode1[2]);
+        System.out.print(ZipCode1[3]);
+        System.out.print(ZipCode1[4]);
+        System.out.println();
+        System.out.print(ZipCode2[0]);
+        System.out.print(ZipCode2[1]);
+        System.out.print(ZipCode2[2]);
+        System.out.print(ZipCode2[3]);
+        System.out.print(ZipCode2[4]);
+        System.out.println();
+        System.out.print(ZipCode3[0]);
+        System.out.print(ZipCode3[1]);
+        System.out.print(ZipCode3[2]);
+        System.out.print(ZipCode3[3]);
+        System.out.print(ZipCode3[4]);
+        System.out.println();
+        System.out.print(ZipCode4[0]);
+        System.out.print(ZipCode4[1]);
+        System.out.print(ZipCode4[2]);
+        System.out.print(ZipCode4[3]);
+        System.out.print(ZipCode4[4]);
+        System.out.println();
+        System.out.print(ZipCode5[0]);
+        System.out.print(ZipCode5[1]);
+        System.out.print(ZipCode5[2]);
+        System.out.print(ZipCode5[3]);
+        System.out.print(ZipCode5[4]);
+        System.out.println();
+        System.out.print(ZipCode6[0]);
+        System.out.print(ZipCode6[1]);
+        System.out.print(ZipCode6[2]);
+        System.out.print(ZipCode6[3]);
+        System.out.print(ZipCode6[4]);
+        System.out.print(ZipCode6[5]);
+        System.out.println();
+        System.out.println("-------------------------");
+    }
+}
